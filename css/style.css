@@ -1,0 +1,85 @@
+ * {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    margin: 0;
+   
+}
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 64px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+.search {
+    background-color: #1f1f1f;
+    border-radius: 35px;
+    width: 490px;
+    height: 48px; 
+    padding: 10px 16px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin:5px;
+
+}
+
+.search-icon {
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    font-size: 21px;
+    
+}
+
+.search input::placeholder {
+    
+    padding: 12px 96px 12px 48px;
+}
+
+.Sp-logo {
+    padding: 8px;
+    font-size: 32px;
+}
+.home-icon {
+    padding: 8px;
+    font-size: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+.left-sidebar {
+    width: 300px;
+   border-radius: 1rem;
+   background-color: #1f1f1f;
+}
+.main-content {
+   flex: 1;
+   border-radius: 1rem;
+}
+.right-sidebar {
+    width: 300px;
+    border-radius: 1rem;
+    background-color: #1f1f1f;
+}
+.player {
+    background-color: #121212;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 88px;
+} 
